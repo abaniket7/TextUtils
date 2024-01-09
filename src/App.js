@@ -4,7 +4,7 @@ import TextForm from './components/TextForm'
 import Alert from './components/Alert';
 import About from './components/About';
 import { 
-  BrowserRouter, Route, Routes, 
+  HashRouter, Route, Routes, 
 } from "react-router-dom";
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
   }
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
       <Navbar title="TextUtils" aboutText="About Us" mode={mode} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
       <div className="container my-3">
@@ -44,7 +44,7 @@ function App() {
           <Route path="/About" element={<About aboutText="About Us" mode={mode}/>} />
         </Routes>
       </div>
-    </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
