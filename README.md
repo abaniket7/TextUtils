@@ -1,3 +1,5 @@
+TextUtils is a web tool offering text manipulation and analysis features. Convert case, undo/redo changes, get text statistics, and use text-to-speech functionalities with ease. Explore at https://abaniket7.github.io/TextUtils/
+![image](https://github.com/abaniket7/TextUtils/assets/131402530/419517b8-0f78-4764-b519-5e34689f02bb)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
